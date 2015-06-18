@@ -1,0 +1,12 @@
+<div>
+		<?php if(count($this->categories)) :?>
+		<?php foreach( $this->categories as $post) :?>
+		<div>
+			<a href="/posts/update/id/<?php echo $post->id;?>"><?php echo $post->title;?> </a>
+			<span><?php echo $post->cname ;?></span>
+		</div>
+			
+		<?php endforeach;?>
+	<?php endif;?>
+	
+</div>

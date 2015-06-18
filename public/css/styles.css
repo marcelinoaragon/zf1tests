@@ -1,0 +1,19 @@
+body {
+	/*background:grey;*/
+}
+header{
+	margin:auto;
+	width: 888px;
+}
+nav{
+	height: 50px;
+}
+nav ul li {
+	float: left;
+	padding-left: 10px;
+	list-style: none;
+}
+.menu2{
+	list-style: none;
+	float: left;
+}

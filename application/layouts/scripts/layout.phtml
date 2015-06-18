@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<title>Proyecto Noticias</title>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<hgroup>
+			<h1></h1>
+		</hgroup>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="/">Inicio</a></li>
+			<li><a href="/migracion/index">Azteca Noticias</a></li>
+			<li><a href="/mundo/hola">..</a></li>
+			<!--<li><a href="/mundo/chau">Chau</a></li>
+			<li><a href="/categorias/index">Categorias</a></li>
+			<li><a href="/posts/listar">Listar Noticias</a></li>
+			<li><a href="/migracion/index">migracion cmsNoti</a></li>-->
+		</ul>
+	</nav>
+	<section>
+	<?php echo $this->layout()->content ?>
+	</section>
+	<footer>
+		<p><?php echo date("Y-m-d");?></p>
+	</footer>
+</body>
+</html>
